@@ -1,0 +1,42 @@
+# Dependency directories
+node_modules/
+bower_components/
+
+# Environment variables
+.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Build and production directories
+dist/
+build/
+coverage/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Package lock files
+package-lock.json
+yarn.lock
+
+# Optional: Exclude transpiled or compiled files
+*.js.map
+*.ts.map
+
+# Ignore config files (optional, if you don’t want to track them)
+config.json
+config.local.json
